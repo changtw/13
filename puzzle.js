@@ -96,5 +96,5 @@ function check() {
             return;
         }
     }
-    document.getElementById("result").innerText = "輸入：惡勢力";
+    document.getElementById("result").innerText = "You Win!";
 }

@@ -80,19 +80,37 @@ body {
 }
 
 /* 类名 position_x 代表了位置 */
-.position_1, .position_2, .position_3 {
+.position_1, .position_2, .position_3, .position_4 {
     top: 0px;
 }
 
-.position_4, .position_5, .position_6 {
+.position_5, .position_6, .position_7, .position_8 {
     top: 85px;
 }
 
-.position_7, .position_8, .position_9 {
+.position_9, .position_10, .position_11, .position_12 {
     top: 170px;
 }
 
+.position_13, .position_14, .position_15, .position_16 {
+    top: 255px;
+}
 
+.position_1, .position_5, .position_9, .position_13 {
+    left: 0px;
+}
+
+.position_2, .position_6, .position_10, .position_14 {
+    left: 85px;
+}
+
+.position_3, .position_7, .position_11, .position_15 {
+    left: 170px;
+}
+
+.position_4, .position_8, .position_12, .position_16 {
+    left: 255px;
+}
 
 /* id _position_x 代表每一个分块 */
 #_position_1 {
@@ -129,4 +147,34 @@ body {
 
 #_position_9 {
     background-position: 0px -168px;
+}
+
+#_position_10 {
+    background-position: -85px -168px;
+}
+
+#_position_11 {
+    background-position: -169px -168px; 
+}
+
+#_position_12 {
+    background-position: -253px -168px;
+}
+
+#_position_13 {
+    background-position: 0px -252px;
+}
+
+#_position_14 {
+    background-position: -85px -252px;
+}
+
+#_position_15 {
+    background-position: -169px -252px; 
+}
+
+#_position_16 {
+    opacity: 0;
+    background-position: -253px -252px;
+    background-image: none;
 }
